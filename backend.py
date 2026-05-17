@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from transformers import ColumnDropper, DurationConverter, FrequencyEncoder
 
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("dataset.csv")
 # load all pipelines
 pipeline = joblib.load('pipeline.joblib')
 vectors = joblib.load('vectors.joblib')
