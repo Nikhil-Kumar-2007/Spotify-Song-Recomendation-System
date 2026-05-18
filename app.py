@@ -68,5 +68,5 @@ elif page == "About Page":
     **GitHub ID:** https://github.com/Nikhil-Kumar-2007
     """)
     st.markdown("""
-    **Project Repository:** https://github.com/priyanshiyadav03/Regression-Analysis
+    **Project Repository:** https://spotify-song-recomendation-169.streamlit.app/
     """)
